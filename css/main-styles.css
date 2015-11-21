@@ -1,0 +1,30 @@
+html,
+body {
+  height: 100%;
+  background-color: #000000;
+  color: #ffffff;
+  padding-top: 2em; }
+
+.carousel,
+.item,
+.active {
+  height: 100%; }
+
+.carousel-inner {
+  height: 100%; }
+
+/* Background images are set within the HTML using inline CSS, not here */
+.fill {
+  width: 100%;
+  height: 70%;
+  background-position: center;
+  background-size: cover;
+  -o-background-size: cover; }
+
+footer {
+  margin: 50px 0; }
+
+.navbar-inverse {
+  height: 7.5em; }
+  .navbar-inverse .img-responsive {
+    width: 45%; }
