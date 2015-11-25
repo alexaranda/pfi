@@ -1,4 +1,18 @@
 
+$xs-min: "only screen and (min-width:none)";
+$xs-max: "only screen and (max-width:520px)";
+$xs-sm: "only screen (min-width: 520px) and (max-width:767px)";
+
+$sm-min: "only screen and (min-width:768px)";
+$sm-max: "only screen and (max-width:767px)";
+$sm-md: "only screen (min-width: 768px) and (max-width:991px)";
+
+$md-min: "only screen and (min-width:992px)";
+$md-max: "only screen and (max-width:991px)";
+$md-lg: "only screen (min-width: 992px) and (max-width:1169px)";
+
+$lg-min: "only screen and (min-width:1170px)";
+$lg-max: "only screen and (max-width:none)";
 
 html,
 body {
@@ -9,27 +23,6 @@ body {
 
 }
 
-.carousel,
-.item,
-.active {
-  height: 100%;
-}
-
-.carousel-inner {
-  height: 100%;
-}
-
-/* Background images are set within the HTML using inline CSS, not here */
-
-.fill {
-  width: 100%;
-  height: 70%;
-  background-position: center;
-  -webkit-background-size: cover;
-  -moz-background-size: cover;
-  background-size: cover;
-  -o-background-size: cover;
-}
 
 footer {
   margin: 50px 0;
@@ -37,12 +30,80 @@ footer {
 
 
 
+a.navbar-brand {
+  float: none;
+
+
+}
+
+#carouselButtons {
+  margin-left: 100px;
+  position: absolute;
+  bottom: 0px;
+}
+
+
+.header { padding-bottom: 64px;}
+
 
 .navbar-inverse {
-    height: 7.5em;
-  .img-responsive {
-     width: 45%;
+
+
+
+      .img-responsive {
+        width: 15%;
+        padding: 0px 0px 0px 0rem;
+      }
+}
+
+@media #{$xs-max} {
+
+  .navbar-inverse {
+
+    .img-responsive {
+      width: 25%;
+      padding-left: 2rem;
+    }
   }
 }
 
 
+
+
+/* Small devices (tablets, 768px and up) */
+@media #{$sm-min} {
+
+  .navbar-inverse {
+     border-bottom:  1px solid #ffffff;
+
+    .img-responsive {
+    width: 45%;
+  }
+ }
+
+  .navbar-header { height:  104px;}
+
+
+ ul.nav.navbar-nav {
+   margin:  3rem 0px;
+
+
+ }
+
+  .header { padding-bottom: 65px;}
+
+
+
+}
+
+/* Medium devices (desktops, 992px and up) */
+@media #{$md-min} {
+
+
+}
+
+/* Large devices (large desktops, 1200px and up) */
+@media #{$lg-min} {
+
+
+}
