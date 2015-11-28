@@ -28,13 +28,30 @@ footer {
   margin: 50px 0;
 }
 
-
+img.img-responsive.mission, img.img-responsive.testimonials  {
+  float: left;
+  padding: 5px 10px 0 10px;
+  max-width: 40%;
+}
 
 a.navbar-brand {
   float: none;
 
 
 }
+div.banner {
+  position: relative;
+  background-color: red;
+  width: 150px;
+  margin: -10px auto 0 auto;
+
+}
+
+.carousel-inner {
+  border-bottom:  1px solid #ffffff;
+
+}
+
 
 #carouselButtons {
   margin-left: 100px;
