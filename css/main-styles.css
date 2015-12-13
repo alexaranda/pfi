@@ -10,7 +10,7 @@ footer {
 
 img.img-responsive.mission, img.img-responsive.testimonials {
   float: left;
-  padding: 5px 10px 0 10px;
+  padding: 20px 15px 70px 10px;
   max-width: 40%; }
 
 a.navbar-brand {
@@ -18,12 +18,12 @@ a.navbar-brand {
 
 div.banner {
   position: relative;
-  background-color: red;
-  width: 150px;
-  margin: -10px auto 0 auto; }
+  width: 328px;
+  height: 43px;
+  margin: -28px auto 0 auto; }
 
 .carousel-inner {
-  border-bottom: 1px solid #ffffff; }
+  border-bottom: 3px solid #ffffff; }
 
 #carouselButtons {
   margin-left: 100px;
@@ -33,9 +33,38 @@ div.banner {
 .header {
   padding-bottom: 64px; }
 
-.navbar-inverse .img-responsive {
-  width: 15%;
-  padding: 0px 0px 0px 0rem; }
+.navbar-inverse {
+  background-color: black; }
+  .navbar-inverse .navbar-nav > li > a {
+    font-size: 18px;
+    font-weight: bold; }
+  .navbar-inverse .img-responsive {
+    width: 15%;
+    padding: 0px 0px 0px 0rem; }
+
+/*Sections*/
+.package-container {
+  margin-top: 25px;
+  margin-bottom: 35px; }
+
+.package-image {
+  padding-top: 25px; }
+
+.contact-image {
+  padding-top: 25px; }
+
+.footer {
+  background-color: #4c5159;
+  min-height: 60px;
+  padding-top: 20px;
+  margin-top: 45px; }
+  .footer ul.footer-nav {
+    list-style: none; }
+    .footer ul.footer-nav li {
+      display: inline-block; }
+      .footer ul.footer-nav li a {
+        padding: 0 10px;
+        color: #ffffff; }
 
 @media only screen and (max-width: 520px) {
   .navbar-inverse .img-responsive {
@@ -44,7 +73,7 @@ div.banner {
 /* Small devices (tablets, 768px and up) */
 @media only screen and (min-width: 768px) {
   .navbar-inverse {
-    border-bottom: 1px solid #ffffff; }
+    border-bottom: 3px solid #ffffff; }
     .navbar-inverse .img-responsive {
       width: 45%; }
 
@@ -52,6 +81,7 @@ div.banner {
     height: 104px; }
 
   ul.nav.navbar-nav {
+    float: right;
     margin: 3rem 0px; }
 
   .header {
